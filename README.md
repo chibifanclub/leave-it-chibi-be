@@ -191,18 +191,20 @@ This project was based off Turing's capstone project. More details can be found 
 
 ### <ins>Contributors</ins>
 ![LinkedIn][LinkedIn-img]
-- [Eric Sargeant](https://www.linkedin.com/in/)
+- [Eric Sergeant](https://www.linkedin.com/in/ericsergeant)
 - [Jessica Jones](https://www.linkedin.com/in/justjj/)
-- [Ida Olsen](https://www.linkedin.com/in//)
-- [Pretty Boi Khoi](https://www.linkedin.com/in//)
-- [Joshua]
+- [Joshua Benefield](https://www.linkedin.com/in/joshua-benefield-033898206/)
+- [Pretty Boi Khoi](https://www.linkedin.com/in/khoifishpond/)
+- [Ida Olson](https://www.linkedin.com/in/idaolson/)
 
 ![Github][Github-img]
-- [Eric Sargeant](https://github.com/cdelpone)
+- [Eric Sergeant](https://github.com/EricSergeant)
 - [Jessica Jones](https://github.com/JeJones21)
-- [Ida Olsen](https://github.com/KevinMugele)
-- [Pretty Boi Khoi](https://github.com/TannerDale)
-- [Joshua]
+- [Joshua Benefield](https://github.com/Jabene)
+- [Pretty Boi Khoi](https://github.com/khoifishpond)
+- [Ida Olson](https://github.com/idaolson)
+
+
 
 <!-- Markdown link & img dfn's -->
 [travis-image]: https://app.travis-ci.com/TannerDale/bones-be.svg?branch=main
