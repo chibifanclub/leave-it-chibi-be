@@ -37,7 +37,115 @@ This project was based off Turing's capstone project. More details can be found 
 ![Schema Screenshot]()
 
 ### <ins>Endpoints</ins>
-[Endpoints](https://gist.github.com/JeJones21/bf5b528046c6d5d80e1d8a0bda625387)
+<details>
+  <summary>Get all items</summary>
+  
+  * Method: GET
+ 
+  * Endpoint: api/v1/items
+```json
+  {
+    "data": [
+      {
+        "id": 1,
+        "type": "items",
+        "attributes": {
+          "name": "remote",
+          "description": "plastic",
+          "toxicity": 5,
+          "treatment": "big surgery", 
+          "image": "https://cdn.vox-cdn.com/thumbor/pQ8yv3BoiduWTWBU8oE-8htJLao=/0x0:2040x1360/920x613/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/69149145/DSCF3621_Edited.0.jpg"
+        }
+      } 
+    ]
+  }
+
+```
+</details>
+
+<details>
+  <summary>Get top five items</summary>
+  
+  * Method: GET
+ 
+  * Endpoint: api/v1/top_five
+```json
+  {
+    "data": [
+      {
+        "id": 1,
+        "type": "items",
+        "attributes": {
+          "name": "remote",
+          "description": "plastic",
+          "toxicity": 5,
+          "treatment": "big surgery", 
+          "image": "https://cdn.vox-cdn.com/thumbor/pQ8yv3BoiduWTWBU8oE-8htJLao=/0x0:2040x1360/920x613/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/69149145/DSCF3621_Edited.0.jpg"
+        }
+      },
+    {
+      "id": 2,
+        "type": "items",
+        "attributes": {
+          "name": "onion",
+          "description": "vegetable, it will be a slow kill",
+          "toxicity": 5,
+          "treatment": "stomach pump and prayer if you believe", 
+          "image": "https://thesmartcanine.com/wp-content/uploads/2016/11/can-dogs-eat-onion-rings.jpg"
+        }
+      },
+    {
+      "id": 3,
+        "type": "items",
+        "attributes": {
+          "name": "grapes",
+          "description": "fruit, if you drop it on the floor, catch it before they do",
+          "toxicity": 3,
+          "treatment": "induce vomiting", 
+          "image": "https://i.pinimg.com/564x/bd/fd/74/bdfd742863ae216d6a9c8061d7991cd6.jpg"
+        }
+      },
+    {
+      "id": 4,
+        "type": "items",
+        "attributes": {
+          "name": "chocolate",
+          "description": "opposite of vanilla",
+          "toxicity": 2,
+          "treatment": "wait it out, my pup ate a candy bar and survived, JUST DON't LET IT HAPPEN AGAIN", 
+          "image": "https://images.wagwalkingweb.com/media/daily_wag/sense_guides/can-dogs-live-after-eating-chocolate/intro/Chocolate2.jpg"
+        }
+      },
+    {
+      "id": 5,
+        "type": "items",
+        "attributes": {
+          "name": "tequila",
+          "description": "alcohol",
+          "toxicity": 2,
+          "treatment": "pour peroxide down their throat and make them run in circles and watch a miracle happen", 
+          "image": "https://media.istockphoto.com/photos/dog-having-fun-and-drinking-alcohol-picture-id543473028"
+        }
+      }
+    ]
+  }
+
+```
+</details>
+
+<details>
+  <summary>Suggestions</summary>
+  
+  * Method: POST
+ 
+  * Endpoint: api/v1/suggestions
+```json
+  {
+    "name": "raisin"
+    "description": "shriveled up grapes"
+  }
+```
+</details>
 
 ### <ins>Technologies</ins>
 
