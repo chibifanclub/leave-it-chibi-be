@@ -10,7 +10,6 @@
 - [Setup](#setup)
 - [Schema](#schema)
 - [Project Board](#project-board)
-- [API](#api)
 - [Endpoints](#endpoints)
 - [Technologies](#technologies)
 - [Contributors](#contributors)
