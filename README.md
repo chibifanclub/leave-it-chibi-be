@@ -10,7 +10,6 @@
 - [Setup](#setup)
 - [Schema](#schema)
 - [Project Board](#project-board)
-- [API](#api)
 - [Endpoints](#endpoints)
 - [Technologies](#technologies)
 - [Contributors](#contributors)
@@ -28,13 +27,11 @@ This project was based off Turing's capstone project. More details can be found 
 3. Setup the database: `rails db:{drop,create,migrate}`
 4. Run `bundle exec rspec` to test
 ### <ins>Schema</ins>
-![Schema Screenshot]()
+![Screen Shot 2021-12-01 at 6 14 58 PM](https://user-images.githubusercontent.com/80985215/144763241-9844be52-513b-4fad-82f8-0ce69046536c.png)
+
 
 ### <ins>Project Board</ins>
 ![Project-Board](https://github.com/orgs/chibifanclub/projects/1)
-
-### <ins>API</ins>
-![Schema Screenshot]()
 
 ### <ins>Endpoints</ins>
 <details>
