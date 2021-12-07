@@ -4,7 +4,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       get '/items', to: 'items#show'
       get '/top_five', to: 'items#top_five'
-      post '/suggestion' to: 'suggestions#controller'
+      post '/suggestion', to: 'suggestions#controller'
     end
   end
 end
