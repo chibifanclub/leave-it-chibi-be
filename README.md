@@ -10,7 +10,6 @@
 - [Setup](#setup)
 - [Schema](#schema)
 - [Project Board](#project-board)
-- [API](#api)
 - [Endpoints](#endpoints)
 - [Technologies](#technologies)
 - [Contributors](#contributors)
@@ -28,16 +27,122 @@ This project was based off Turing's capstone project. More details can be found 
 3. Setup the database: `rails db:{drop,create,migrate}`
 4. Run `bundle exec rspec` to test
 ### <ins>Schema</ins>
-![Schema Screenshot]()
+![Screen Shot 2021-12-01 at 6 14 58 PM](https://user-images.githubusercontent.com/80985215/144763241-9844be52-513b-4fad-82f8-0ce69046536c.png)
+
 
 ### <ins>Project Board</ins>
 ![Project-Board](https://github.com/orgs/chibifanclub/projects/1)
 
-### <ins>API</ins>
-![Schema Screenshot]()
-
 ### <ins>Endpoints</ins>
-[Endpoints](https://gist.github.com/JeJones21/bf5b528046c6d5d80e1d8a0bda625387)
+<details>
+  <summary>Get all items</summary>
+  
+  * Method: GET
+ 
+  * Endpoint: api/v1/items
+```json
+  {
+    "data": [
+      {
+        "id": 1,
+        "type": "items",
+        "attributes": {
+          "name": "remote",
+          "description": "plastic",
+          "toxicity": 5,
+          "treatment": "big surgery", 
+          "image": "https://cdn.vox-cdn.com/thumbor/pQ8yv3BoiduWTWBU8oE-8htJLao=/0x0:2040x1360/920x613/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/69149145/DSCF3621_Edited.0.jpg"
+        }
+      } 
+    ]
+  }
+
+```
+</details>
+
+<details>
+  <summary>Get top five items</summary>
+  
+  * Method: GET
+ 
+  * Endpoint: api/v1/top_five
+```json
+  {
+    "data": [
+      {
+        "id": 1,
+        "type": "items",
+        "attributes": {
+          "name": "remote",
+          "description": "plastic",
+          "toxicity": 5,
+          "treatment": "big surgery", 
+          "image": "https://cdn.vox-cdn.com/thumbor/pQ8yv3BoiduWTWBU8oE-8htJLao=/0x0:2040x1360/920x613/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/69149145/DSCF3621_Edited.0.jpg"
+        }
+      },
+    {
+      "id": 2,
+        "type": "items",
+        "attributes": {
+          "name": "onion",
+          "description": "vegetable, it will be a slow kill",
+          "toxicity": 5,
+          "treatment": "stomach pump and prayer if you believe", 
+          "image": "https://thesmartcanine.com/wp-content/uploads/2016/11/can-dogs-eat-onion-rings.jpg"
+        }
+      },
+    {
+      "id": 3,
+        "type": "items",
+        "attributes": {
+          "name": "grapes",
+          "description": "fruit, if you drop it on the floor, catch it before they do",
+          "toxicity": 3,
+          "treatment": "induce vomiting", 
+          "image": "https://i.pinimg.com/564x/bd/fd/74/bdfd742863ae216d6a9c8061d7991cd6.jpg"
+        }
+      },
+    {
+      "id": 4,
+        "type": "items",
+        "attributes": {
+          "name": "chocolate",
+          "description": "opposite of vanilla",
+          "toxicity": 2,
+          "treatment": "wait it out, my pup ate a candy bar and survived, JUST DON't LET IT HAPPEN AGAIN", 
+          "image": "https://images.wagwalkingweb.com/media/daily_wag/sense_guides/can-dogs-live-after-eating-chocolate/intro/Chocolate2.jpg"
+        }
+      },
+    {
+      "id": 5,
+        "type": "items",
+        "attributes": {
+          "name": "tequila",
+          "description": "alcohol",
+          "toxicity": 2,
+          "treatment": "pour peroxide down their throat and make them run in circles and watch a miracle happen", 
+          "image": "https://media.istockphoto.com/photos/dog-having-fun-and-drinking-alcohol-picture-id543473028"
+        }
+      }
+    ]
+  }
+
+```
+</details>
+
+<details>
+  <summary>Suggestions</summary>
+  
+  * Method: POST
+ 
+  * Endpoint: api/v1/suggestions
+```json
+  {
+    "name": "raisin"
+    "description": "shriveled up grapes"
+  }
+```
+</details>
 
 ### <ins>Technologies</ins>
 
@@ -83,18 +188,20 @@ This project was based off Turing's capstone project. More details can be found 
 
 ### <ins>Contributors</ins>
 ![LinkedIn][LinkedIn-img]
-- [Eric Sargeant](https://www.linkedin.com/in/)
+- [Eric Sergeant](https://www.linkedin.com/in/ericsergeant)
 - [Jessica Jones](https://www.linkedin.com/in/justjj/)
-- [Ida Olsen](https://www.linkedin.com/in//)
-- [Pretty Boi Khoi](https://www.linkedin.com/in//)
-- [Joshua]
+- [Joshua Benefield](https://www.linkedin.com/in/joshua-benefield-033898206/)
+- [Pretty Boi Khoi](https://www.linkedin.com/in/khoifishpond/)
+- [Ida Olson](https://www.linkedin.com/in/idaolson/)
 
 ![Github][Github-img]
-- [Eric Sargeant](https://github.com/cdelpone)
+- [Eric Sergeant](https://github.com/EricSergeant)
 - [Jessica Jones](https://github.com/JeJones21)
-- [Ida Olsen](https://github.com/KevinMugele)
-- [Pretty Boi Khoi](https://github.com/TannerDale)
-- [Joshua]
+- [Joshua Benefield](https://github.com/Jabene)
+- [Pretty Boi Khoi](https://github.com/khoifishpond)
+- [Ida Olson](https://github.com/idaolson)
+
+
 
 <!-- Markdown link & img dfn's -->
 [travis-image]: https://app.travis-ci.com/TannerDale/bones-be.svg?branch=main
