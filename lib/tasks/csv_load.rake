@@ -9,9 +9,11 @@ namespace :csv_load do
         Item.create!(item_hash)
       end
       ActiveRecord::Base.connection.reset_pk_sequence!(:items)
+      ActiveRecord::Base.connection.reset_pk_sequence!(:searches)
     end
 
     task all: :environment do
+      Search.destroy_all
       Item.destroy_all
       Rake::Task["csv_load:items"].invoke
     end
