@@ -36,9 +36,9 @@ This project was based off Turing's capstone project. More details can be found 
 ### <ins>Endpoints</ins>
 <details>
   <summary>Get all items</summary>
-
+  
   * Method: GET
-
+ 
   * Endpoint: api/v1/items
 ```json
   {
@@ -50,10 +50,10 @@ This project was based off Turing's capstone project. More details can be found 
           "name": "remote",
           "description": "plastic",
           "toxicity": 5,
-          "treatment": "big surgery",
+          "treatment": "big surgery", 
           "image": "https://cdn.vox-cdn.com/thumbor/pQ8yv3BoiduWTWBU8oE-8htJLao=/0x0:2040x1360/920x613/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/69149145/DSCF3621_Edited.0.jpg"
         }
-      }
+      } 
     ]
   }
 
@@ -62,9 +62,9 @@ This project was based off Turing's capstone project. More details can be found 
 
 <details>
   <summary>Get top five items</summary>
-
+  
   * Method: GET
-
+ 
   * Endpoint: api/v1/top_five
 ```json
   {
