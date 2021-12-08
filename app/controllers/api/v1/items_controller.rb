@@ -15,6 +15,11 @@ class Api::V1::ItemsController < ApplicationController
   def show
     item = Item.find(params[:id])
     if item
+      if item.search.nil?
+        Search.create(item_id: item.id, count: 1)
+      else
+        item.increment
+      end
       render json: ItemSerializer.new(item)
     else
       render json: { response: 'Not Found' }, status: :not_found
