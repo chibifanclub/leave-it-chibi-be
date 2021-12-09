@@ -39,7 +39,7 @@ This project was based off Turing's capstone project. More details can be found 
   
   * Method: GET
  
-  * Endpoint: api/v1/items
+  * Endpoint: https://chibi-be.herokuapp.com/api/v1/items
 ```json
   {
     "data": [
@@ -149,7 +149,8 @@ This project was based off Turing's capstone project. More details can be found 
   
   * Method: GET
  
-  * Endpoint: api/v1/items/:id
+  * Endpoint: https://chibi-be.herokuapp.com/api/v1/:id (for example: https://chibi-be.herokuapp.com/api/v1/8)
+  
 ```json
   {
     "data": {
