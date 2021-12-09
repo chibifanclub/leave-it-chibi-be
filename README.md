@@ -144,6 +144,30 @@ This project was based off Turing's capstone project. More details can be found 
 ```
 </details>
 
+<details>
+  <summary>Get one item</summary>
+  
+  * Method: GET
+ 
+  * Endpoint: api/v1/items/:id
+```json
+  {
+    "data": {
+        "id": "2",
+        "type": "item", 
+        "attributes": {
+            "name": "garlic",
+            "description": "Toxic doses of garlic can cause damage to the red blood cells (making them more likely to       rupture) leading to anemia. GI upset can also occur (e.g., nausea, drooling, abdominal pain, vomiting, diarrhea). ... While tiny amounts of these foods in some pets, especially dogs, may be safe, large amounts can be very toxic.",
+            "toxicity": 3,
+            "treatment": "Your veterinarian might recommend intravenous fluids to keep him hydrated, and may prescribe a medication to control vomiting. In severe cases, blood transfusions might be necessary.",
+            "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F10%2F12%2Fcan-dog-eat-garlic.png&q=85"
+        }
+    }
+}
+
+```
+</details>
+
 ### <ins>Technologies</ins>
 
 #### Versions
