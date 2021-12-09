@@ -40,6 +40,15 @@ This project was based off Turing's capstone project. More details can be found 
   * Method: GET
  
   * Endpoint: https://chibi-be.herokuapp.com/api/v1/items
+  Send request in the body: 
+  
+  ```json
+  {
+    "name": "onion"
+  }
+  ```
+  Returns: 
+  
 ```json
   {
     "data": [
