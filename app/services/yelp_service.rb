@@ -1,9 +1,7 @@
 class YelpService
-  BASE_URL = 'https://api.yelp.com'
-
-  def self.conn
-    Faraday.new(BASE_URL) do |f|
-      f.headers['Authorizaiton'] = ENV['YelpAPIKey']
+  class << self
+    def get_data(location)
+      YelpClient.find_vets(location)[:businesses]
     end
   end
 end
