@@ -6,6 +6,7 @@ Rails.application.routes.draw do
       get '/items/:id', to: 'items#show'
       get '/top_five', to: 'items#top_five'
       post '/suggestion', to: 'suggestions#controller'
+      resources :veterinarians, only: [:index]
     end
   end
 end
