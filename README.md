@@ -148,7 +148,7 @@ This project was based off Turing's capstone project. More details can be found 
   * Endpoint: https://chibi-be.herokuapp.com/api/v1/suggest
 ```json
   {
-    "name": "raisin"
+    "name": "raisin",
     "description": "shriveled up grapes"
   }
   ```
