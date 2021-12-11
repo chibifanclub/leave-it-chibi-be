@@ -152,16 +152,16 @@ This project was based off Turing's capstone project. More details can be found 
     "description": "shriveled up grapes"
   }
   ```
-  if already in items, it will return item: 
+  * If the suggestion already in items, it will return item: 
   
-  for example:
+  * For example:
   
   ```json
   {
     "name": "candy"
   }
   ```
-  will return:
+  * Will return:
   
   ```json
   
