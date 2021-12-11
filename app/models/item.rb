@@ -8,4 +8,8 @@ class Item < ApplicationRecord
   def increment
     search.update(count: search.count += 1)
   end
+
+  def self.search_name(name)
+    where(name: name)
+  end
 end
