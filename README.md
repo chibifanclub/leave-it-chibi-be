@@ -145,7 +145,7 @@ This project was based off Turing's capstone project. More details can be found 
 
   * Method: POST
 
-  * Endpoint: api/v1/suggestions
+  * Endpoint: https://chibi-be.herokuapp.com/api/v1/suggestions
 ```json
   {
     "name": "raisin"
