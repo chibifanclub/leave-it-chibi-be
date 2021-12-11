@@ -157,7 +157,7 @@ This project was based off Turing's capstone project. More details can be found 
   for example:
   
   ```json
-    {
+  {
     "name": "candy"
   }
   ```
