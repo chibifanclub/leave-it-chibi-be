@@ -179,6 +179,264 @@ This project was based off Turing's capstone project. More details can be found 
 ```
 </details>
 
+<details>
+  <summary>Get Veterinarians</summary>
+  
+  * Method: GET
+
+  * Parameters: City, State or ZIP code
+ 
+  * Endpoint: https://chibi-be.herokuapp.com/api/v1/veterinarians (for example: https://chibi-be.herokuapp.com/api/v1/veterinarians?location=Denver,CO)
+  
+```json
+{
+    "data": [
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "5280 Veterinary Care",
+                "address": "3100 Gilpin St, Denver, CO 80205",
+                "phone": "(720) 789-7000",
+                "reviews": 89,
+                "rating": 4.5,
+                "image": "https://s3-media3.fl.yelpcdn.com/bphoto/Rw7hk8x4D8XUWJPt5VwYwA/o.jpg"
+            }
+        },
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "Park Hill Veterinary Medical Center",
+                "address": "2255 Oneida St, Denver, CO 80207",
+                "phone": "(303) 388-2255",
+                "reviews": 160,
+                "rating": 4.0,
+                "image": "https://s3-media2.fl.yelpcdn.com/bphoto/fpw6Uzz-YPg9_NhTvvibwQ/o.jpg"
+            }
+        },
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "Highlands Animal Clinic",
+                "address": "3727 W 32nd Ave, Denver, CO 80211",
+                "phone": "(303) 455-7387",
+                "reviews": 120,
+                "rating": 4.5,
+                "image": "https://s3-media3.fl.yelpcdn.com/bphoto/SeJzw0DoweGEGo2NxbkpPQ/o.jpg"
+            }
+        },
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "Bouton Veterinary Hospital",
+                "address": "10667 W Progress Ave, Littleton, CO 80127",
+                "phone": "(303) 979-4091",
+                "reviews": 34,
+                "rating": 5.0,
+                "image": "https://s3-media1.fl.yelpcdn.com/bphoto/QeCHojIF1LoH_b9sWn_CZQ/o.jpg"
+            }
+        },
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "VCA Firehouse Animal Hospital",
+                "address": "1038 E 6th Ave, Ste B, Denver, CO 80218",
+                "phone": "(303) 733-2226",
+                "reviews": 154,
+                "rating": 4.0,
+                "image": "https://s3-media2.fl.yelpcdn.com/bphoto/if9l_vqSvBH1bXQyhR3_PA/o.jpg"
+            }
+        },
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "CityVet - Capitol Hill",
+                "address": "520 E Colfax Ave, Denver, CO 80203",
+                "phone": "(720) 262-4340",
+                "reviews": 54,
+                "rating": 4.0,
+                "image": "https://s3-media3.fl.yelpcdn.com/bphoto/HNPlWvaQpaoXoNMutIgIvg/o.jpg"
+            }
+        },
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "THRIVE Affordable Vet Care - Denver DT",
+                "address": "757 E 20th Avenue, Suite 410, Denver, CO 80205",
+                "phone": "(720) 864-1935",
+                "reviews": 9,
+                "rating": 4.0,
+                "image": "https://s3-media2.fl.yelpcdn.com/bphoto/DfNcGEE87xY7RWdFeIVd6A/o.jpg"
+            }
+        },
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "Tender Touch Animal Hospital",
+                "address": "350 Kalamath St, Denver, CO 80223",
+                "phone": "(303) 733-2728",
+                "reviews": 120,
+                "rating": 4.5,
+                "image": "https://s3-media4.fl.yelpcdn.com/bphoto/AZGt6L5I7uqvnkrIct-Fvw/o.jpg"
+            }
+        },
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "Whole Pet Wellness Veterinary Services",
+                "address": "Denver, CO 80207",
+                "phone": "(720) 583-4442",
+                "reviews": 17,
+                "rating": 5.0,
+                "image": "https://s3-media1.fl.yelpcdn.com/bphoto/DMD8hBAxPp9iiqohe-JmCA/o.jpg"
+            }
+        },
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "The Center For Animal Wellness",
+                "address": "1167 Santa Fe Dr, Denver, CO 80238",
+                "phone": "(303) 534-1875",
+                "reviews": 66,
+                "rating": 4.5,
+                "image": "https://s3-media4.fl.yelpcdn.com/bphoto/fvZpEiJmksG5jX2szVHlDQ/o.jpg"
+            }
+        },
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "Vetcare Animal Hospital",
+                "address": "6611 Leetsdale Dr, Denver, CO 80224",
+                "phone": "(303) 329-9162",
+                "reviews": 59,
+                "rating": 5.0,
+                "image": "https://s3-media3.fl.yelpcdn.com/bphoto/iW6yKEbA8b6mI4CqsUpDNQ/o.jpg"
+            }
+        },
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "Urban Vet Care",
+                "address": "2815 Clay St, Denver, CO 80211",
+                "phone": "(303) 477-1984",
+                "reviews": 149,
+                "rating": 4.0,
+                "image": "https://s3-media3.fl.yelpcdn.com/bphoto/RJsDNHz6CGiXKcXrEzNK2w/o.jpg"
+            }
+        },
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "Denver Animal Hospital",
+                "address": "2103 E Virginia Ave, Denver, CO 80209",
+                "phone": "(303) 871-8719",
+                "reviews": 70,
+                "rating": 4.5,
+                "image": "https://s3-media2.fl.yelpcdn.com/bphoto/CEafjlj71X_wi9_VYtI40Q/o.jpg"
+            }
+        },
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "Goodheart Animal Health Center",
+                "address": "389 S Broadway, Denver, CO 80209",
+                "phone": "(720) 647-2727",
+                "reviews": 30,
+                "rating": 5.0,
+                "image": "https://s3-media2.fl.yelpcdn.com/bphoto/-KE9Ho-0TnmC9Vss3KMvfg/o.jpg"
+            }
+        },
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "Veterinary Emergency Group",
+                "address": "3845 E Colfax Ave, Denver, CO 80206",
+                "phone": "(720) 574-9834",
+                "reviews": 50,
+                "rating": 4.5,
+                "image": "https://s3-media2.fl.yelpcdn.com/bphoto/6-_O3mYKv2zIo5GwuqCuJg/o.jpg"
+            }
+        },
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "Park Animal Hospital & Wellness Center",
+                "address": "710 E Louisiana Ave, Denver, CO 80210",
+                "phone": "(303) 534-5440",
+                "reviews": 98,
+                "rating": 4.5,
+                "image": "https://s3-media2.fl.yelpcdn.com/bphoto/iF3uhBE-DVlXvEjZAQfX5w/o.jpg"
+            }
+        },
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "Robin's Housecall Veterinary Services",
+                "address": "Denver, CO 80202",
+                "phone": "(970) 217-1260",
+                "reviews": 9,
+                "rating": 5.0,
+                "image": "https://s3-media2.fl.yelpcdn.com/bphoto/IaCHXsKxhiLPUzbCzuacfA/o.jpg"
+            }
+        },
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "Evans East Animal Hospital",
+                "address": "5470 E Evans Ave, Denver, CO 80222",
+                "phone": "(303) 757-7881",
+                "reviews": 122,
+                "rating": 4.5,
+                "image": "https://s3-media3.fl.yelpcdn.com/bphoto/ntVIgtelaSEjfV9xXAI3xA/o.jpg"
+            }
+        },
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "VCA Alameda East Veterinary Hospital",
+                "address": "9770 E Alameda Ave, Denver, CO 80247",
+                "phone": "(303) 366-2639",
+                "reviews": 297,
+                "rating": 3.5,
+                "image": "https://s3-media2.fl.yelpcdn.com/bphoto/clnrDyqit6qUSBbkirujpw/o.jpg"
+            }
+        },
+        {
+            "id": null,
+            "type": "veterinarian",
+            "attributes": {
+                "name": "Caring Pathways",
+                "address": "Englewood, CO 80112",
+                "phone": "(720) 287-2553",
+                "reviews": 136,
+                "rating": 5.0,
+                "image": "https://s3-media4.fl.yelpcdn.com/bphoto/gep_G4SXFE7RYVmj7sO_3g/o.jpg"
+            }
+        }
+    ]
+}
+
+```
+</details>
+
 ### <ins>Technologies</ins>
 
 #### Versions
