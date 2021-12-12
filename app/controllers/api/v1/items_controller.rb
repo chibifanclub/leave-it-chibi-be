@@ -25,4 +25,13 @@ class Api::V1::ItemsController < ApplicationController
       render json: { response: 'Not Found' }, status: :not_found
     end
   end
+
+  def top_five
+    items = Item.get_top_five
+    if items.length > 0
+      render json: ItemSerializer.new(items)
+    else
+      render json: { response: 'Top Five Not Found' }, status: :not_found
+    end
+  end
 end
