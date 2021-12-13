@@ -7,6 +7,7 @@ Rails.application.routes.draw do
       get '/top_five', to: 'items#top_five'
       post '/suggest', to: 'suggestions#create'
       resources :veterinarians, only: [:index]
+      resources :searches, only: [:create]
     end
   end
 end
