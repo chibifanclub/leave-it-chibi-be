@@ -220,7 +220,7 @@ This project was based off Turing's capstone project. More details can be found 
   If the item has been searched previously, the response will be:
   
   ```json
-   {
+  {
     "response": "Search count increased"
   }
   ```
