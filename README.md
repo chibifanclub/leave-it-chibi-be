@@ -215,7 +215,7 @@ This project was based off Turing's capstone project. More details can be found 
   
   * Method: POST
  
-  * https://chibi-be.herokuapp.com/api/v1/searches?item_id=:id(for example: https://chibi-be.herokuapp.com/api/v1/searches?item_id=4)
+  * https://chibi-be.herokuapp.com/api/v1/searches?item_id=:id (for example: https://chibi-be.herokuapp.com/api/v1/searches?item_id=4)
   
   If the item has been searched previously, the response will be:
   
