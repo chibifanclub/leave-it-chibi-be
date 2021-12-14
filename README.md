@@ -211,6 +211,29 @@ This project was based off Turing's capstone project. More details can be found 
 </details>
 
 <details>
+  <summary>Post to searches (to track popularity)</summary>
+  
+  * Method: POST
+ 
+  * https://chibi-be.herokuapp.com/api/v1/searches?item_id=:id(for example: https://chibi-be.herokuapp.com/api/v1/searches?item_id=4)
+  
+  If the item has been searched previously, the response will be:
+  
+  ```json
+   {
+    "response": "Search count increased"
+  }
+  ```
+  If the item has not been searched previously, the response will be: 
+  
+  ```json
+  {
+    "response": "Search created"
+  }
+  ```
+</details>
+
+<details>
   <summary>Get Veterinarians</summary>
   
   * Method: GET
