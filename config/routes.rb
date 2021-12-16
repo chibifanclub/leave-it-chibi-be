@@ -2,8 +2,7 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   namespace :api do
     namespace :v1 do
-      get '/items', to: 'items#index'
-      get '/items/:id', to: 'items#show'
+      resources :items, only: [:index, :create, :update, :show]
       get '/top_five', to: 'items#top_five'
       post '/suggest', to: 'suggestions#create'
       resources :veterinarians, only: [:index]
