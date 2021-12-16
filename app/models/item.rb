@@ -6,9 +6,9 @@ class Item < ApplicationRecord
     where("name ILIKE ?", "%#{search_params}%")
   end
 
-  def increment
-    search.update(count: search.count += 1)
-  end
+  # def increment
+  #   search.update(count: search.count += 1)
+  # end
 
   def self.search_name(name)
     where(name: name)
