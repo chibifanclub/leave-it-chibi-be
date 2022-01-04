@@ -13,7 +13,7 @@
 
 ## <ins>Overview</ins>
 
-# Leave It, Chibi! (Back-end)
+# Leave It, Chibi! (Back-End)
 🦴 This web service offers access to a database of household substances that dogs commonly eat, their toxicity level, how to treat ingestion, the location of the nearest vet, and an image of each substance. This is intented as a resource for anyone who has a dog as naughty as Chibi. 
 
 The front-end repository and live app deployment can be found here: 
