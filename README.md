@@ -1,6 +1,5 @@
 # [🐶 Leave it, Chibi!](https://github.com/chibifanclub/leave-it-chibi-be)
 
-[![Build Status][travis-image]][travis-url]
 [![chibifanclub](https://circleci.com/gh/chibifanclub/leave-it-chibi-be.svg?style=svg)](https://app.circleci.com/pipelines/github/chibifanclub/leave-it-chibi-be?filter=all)
 
 ## Table of contents
