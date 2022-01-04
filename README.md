@@ -18,7 +18,7 @@
 
 The front-end repository and live app deployment can be found here: 
 
-#### [🐶 Leave it, Chibi! Front-end Repo 🤮](https://github.com/chibifanclub/leave-it-chibi-fe)
+#### [🐶 Leave it, Chibi! Front-End Repo 🤮](https://github.com/chibifanclub/leave-it-chibi-fe)
 #### [🐶 Leave it, Chibi! 🤮 App](https://main.dzaswu99pr3fh.amplifyapp.com/)
 
 This is a Capstone Project collaboration between the Back-End and Front-End Engineering students at Turing School of Software & Design. More details can be found [here](https://mod4.turing.edu/projects/capstone/)
