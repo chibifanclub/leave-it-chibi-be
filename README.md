@@ -2,9 +2,6 @@
 
 [![Build Status][travis-image]][travis-url]
 
-#### [🐶 Leave it, Chibi! Front-end Repo 🤮](https://github.com/chibifanclub/leave-it-chibi-fe)
-#### [🐶 Leave it, Chibi! 🤮 App](https://main.dzaswu99pr3fh.amplifyapp.com/)
-
 ## Table of contents
 - [Overview](#overview)
 - [Contributors](#contributors)
@@ -16,10 +13,15 @@
 
 ## <ins>Overview</ins>
 
-# Leave It, Chibi!
-🦴 still need description
+# Leave It, Chibi! (Back-end)
+🦴 This web service offers access to a database of household substances that dogs commonly eat, their toxicity level, how to treat ingestion, the location of the nearest vet, and an image of each substance. This is intented as a resource for anyone who has a dog as naughty as Chibi. 
 
-This project was based off Turing's capstone project. More details can be found [here](https://mod4.turing.edu/projects/capstone/)
+The front-end repository and live app deployment can be found here: 
+
+#### [🐶 Leave it, Chibi! Front-end Repo 🤮](https://github.com/chibifanclub/leave-it-chibi-fe)
+#### [🐶 Leave it, Chibi! 🤮 App](https://main.dzaswu99pr3fh.amplifyapp.com/)
+
+This is a Capstone Project collaboration between the Back-End and Front-End Engineering students at Turing School of Software & Design. More details can be found [here](https://mod4.turing.edu/projects/capstone/)
 
 ### <ins>Contributors</ins>
 ![LinkedIn][LinkedIn-img]
