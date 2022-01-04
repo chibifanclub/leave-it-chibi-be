@@ -2,8 +2,8 @@
 
 [![Build Status][travis-image]][travis-url]
 
-#### [🐶 Leave it, Chibi! 🤮](https://github.com/chibifanclub/leave-it-chibi-fe)
-#### [🐶 Leave it, Chibi! 🤮 App]()
+#### [🐶 Leave it, Chibi! Front-end Repo 🤮](https://github.com/chibifanclub/leave-it-chibi-fe)
+#### [🐶 Leave it, Chibi! 🤮 App](https://main.dzaswu99pr3fh.amplifyapp.com/)
 
 ## Table of contents
 - [Overview](#overview)
