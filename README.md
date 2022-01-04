@@ -7,12 +7,12 @@
 
 ## Table of contents
 - [Overview](#overview)
+- [Contributors](#contributors)
 - [Setup](#setup)
 - [Schema](#schema)
 - [Project Board](#project-board)
 - [Endpoints](#endpoints)
 - [Technologies](#technologies)
-- [Contributors](#contributors)
 
 ## <ins>Overview</ins>
 
@@ -20,6 +20,22 @@
 🦴 still need description
 
 This project was based off Turing's capstone project. More details can be found [here](https://mod4.turing.edu/projects/capstone/)
+
+### <ins>Contributors</ins>
+![LinkedIn][LinkedIn-img]
+- [Ida Olson](https://www.linkedin.com/in/idaolson/)
+- [Jessica Jones](https://www.linkedin.com/in/justjj/)
+- [Khoi Nguyen](https://www.linkedin.com/in/khoifishpond/)
+- [Eric Sergeant](https://www.linkedin.com/in/ericsergeant)
+- [Joshua Benefield](https://www.linkedin.com/in/joshua-benefield-033898206/)
+
+![Github][Github-img]
+- [Ida Olson](https://github.com/idaolson)
+- [Jessica Jones](https://github.com/JeJones21)
+- [Khoi Nguyen](https://github.com/khoifishpond)
+- [Eric Sergeant](https://github.com/EricSergeant)
+- [Joshua Benefield](https://github.com/Jabene)
+
 
 ### <ins>Setup</ins>
 1. Fork and Clone the repo
@@ -353,23 +369,6 @@ This project was based off Turing's capstone project. More details can be found 
 ![TDD][TDD-img]
 ![MVC][MVC-img]
 ![REST][REST-img]
-
-### <ins>Contributors</ins>
-![LinkedIn][LinkedIn-img]
-- [Eric Sergeant](https://www.linkedin.com/in/ericsergeant)
-- [Jessica Jones](https://www.linkedin.com/in/justjj/)
-- [Joshua Benefield](https://www.linkedin.com/in/joshua-benefield-033898206/)
-- [Pretty Boi Khoi](https://www.linkedin.com/in/khoifishpond/)
-- [Ida Olson](https://www.linkedin.com/in/idaolson/)
-
-![Github][Github-img]
-- [Eric Sergeant](https://github.com/EricSergeant)
-- [Jessica Jones](https://github.com/JeJones21)
-- [Joshua Benefield](https://github.com/Jabene)
-- [Pretty Boi Khoi](https://github.com/khoifishpond)
-- [Ida Olson](https://github.com/idaolson)
-
-
 
 <!-- Markdown link & img dfn's -->
 [travis-image]: https://app.travis-ci.com/TannerDale/bones-be.svg?branch=main
